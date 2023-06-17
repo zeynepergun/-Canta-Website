@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+nav {
+  background-color: gray;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 8%;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+nav nav-links a {
+  color: white;
+}
+.container {
+  width: 100%;
+  height: 100vh;
+  background-color: gray;
+  color: gray;
+}
+nav button {
+  border: none;
+}
+nav button i {
+  width: 5rem;
+  height: 5rem;
+  font-size: 5rem;
+  color: #fb5d17;
+  cursor: pointer;
+  background-color: gray;
+}
+nav .nav-links {
+  display: flex;
+  column-gap: 20px;
+  color: white;
+}
+nav .nav-links a {
+  color: white;
+  font-size: 26px;
+  text-decoration: none;
+}
+.row {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  color: white;
+}
+.row .col-1,
+.row .col-2 {
+    flex-basis: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  /* yazının gelmesini sağladı*/
+}
+
+.row .col-1 {
+  padding-left: 8%;
+}
+
+.row .col-1 h1 {
+  color: #fb5d17;
+  font-size: 74px;
+  line-height: 100px;
+  margin-bottom: 5px;
+}
+
+.row .col-1 p {
+  padding: right 10px;
+  line-height: 1.4;
+}
+.row .col-1 price {
+  display: flex;
+  align-items: flex-end;
+  column-gap: 10px;
+  margin-top: 10px;
+}
+
+.row .col-1 h2 {
+  font-size: 25px;
+  line-height: 1;
+}
+
+.row .col-1 .buttons {
+  display: flex;
+  column-gap: 10px;
+  flex-wrap: wrap;
+}
+.col-1 .buttons button,
+.col-1 .buttons a {
+  display: inline-block;
+  width: fit-content;
+  padding: 18px 50px;
+  background: #fb5d17;
+  border: none;
+  color:white ;
+  font-size: 17px;
+  margin-top: 20px; 
+  text-decoration: none;
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+}
+
+.col-1 .buttons button:hover,
+.col-1 .buttons a:hover{
+background: #fb5d26;
+transform: translateY(-5px);
+}
+
+.col-2 .feature-img{
+    width: 80%;
+    text-align: center;
+    margin-left: 7rem;
+    
+}
+.col-2 .feature-img img{
+    height: 100%;
+    width: 70%;
+  /*transform:rotate(-20deg);*/
+  padding-bottom:5rem;
+   
+}
+.col-2 .feature-img img:hover{
+    transform: translate(-20px,10px)rotate(0);
+
+}
+
+.col-2{
+    padding-right: 8%;
+    position: relative;
+    background-color:#DCDCDC;
+  
+}
+
+.small-img-wrapper{
+    display: flex;
+    width: 80%;
+  
+    align-items: center;
+    justify-content: space-around;
+}
+.small-img img{
+    width: 140px;
+    padding-bottom: 2rem;
+   text-align: center;
+   margin-left: 3rem;
+   
+}
+.small-img img:hover{
+    transform: scale(1.2);
+}
