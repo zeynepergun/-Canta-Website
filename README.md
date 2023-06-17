@@ -1,1 +1,1 @@
-# -anta-Tan-t-m-Sitesi-
+Canta-Tanıtım-Sitesi
