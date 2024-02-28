@@ -1,1 +1,1 @@
-Canta-Tanıtım-Sitesi
+CantaTanıtımSitesi
