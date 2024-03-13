@@ -1,1 +1,1 @@
-CantaTanıtımSitesi
+Çanta modellerini tanıtan bir internet sitesidir
